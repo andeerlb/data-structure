@@ -7,8 +7,12 @@ version = "1.0-SNAPSHOT"
 
 java {
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(25))
+        languageVersion.set(JavaLanguageVersion.of(21))
     }
+}
+
+kotlin {
+    jvmToolchain(21)
 }
 
 repositories {
@@ -19,8 +23,8 @@ dependencies {
     implementation(kotlin("stdlib"))
 
     testImplementation(kotlin("test"))
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit5:2.3.20")
-    testImplementation("org.junit.jupiter:junit-jupiter-engine:6.0.3")
+    testImplementation("org.jetbrains.kotlin:kotlin-test-junit5:2.1.20")
+    testImplementation("org.junit.jupiter:junit-jupiter-engine:5.10.2")
 }
 
 tasks.test {
