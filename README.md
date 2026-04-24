@@ -8,7 +8,7 @@ The goal is to build a solid foundation in computer science by exploring how dat
 
 - Arrays & Linked Lists
 - Stacks & Queues
-- Trees (Binary Trees, BST, etc.)
+- [Trees](./trees/) (Binary Trees, BST, etc.)
 - Segment Trees
 - Graphs
 - Hash Tables
