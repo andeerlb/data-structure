@@ -1,0 +1,38 @@
+# Gradle
+.gradle/
+build/
+
+# Gradle Wrapper (IMPORTANTE: ignorar só o .jar opcionalmente NÃO)
+# MANTER esses arquivos:
+!gradle/wrapper/gradle-wrapper.jar
+!gradlew
+!gradlew.bat
+
+# Logs
+*.log
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+out/
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+
+# Kotlin
+*.class
+
+# Env files
+.env
+
+# Local configs
+local.properties
